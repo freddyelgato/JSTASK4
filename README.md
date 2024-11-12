@@ -13,13 +13,13 @@ This project is a simple "Hello World" web application created in JavaScript and
 
 2. **Run the application in Docker**:
    ```bash
-   docker run -d -p 8080:8080 --name jstask4 2424833f/jstask4
+   docker run -d -p 5173:5173 --name jstask4 2424833f/jstask4
  - **d**: Runs the container in detached mode.
- - **p8080**: Maps container port 8080 to your machine's port 8080.
+ - **p8080**: Maps container port 5173 to your machine's port 5173.
 
 3. **Access the application in your browser to see the "Hello World" message**:
    ```bash
-   http://localhost:8080
+   http://localhost:5173
    
 ## Useful Commands
 - View containers: `docker ps`.
